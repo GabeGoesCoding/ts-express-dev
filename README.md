@@ -34,7 +34,7 @@ Follow these steps to set up and run the TypeScript Express application:
 During development, you can take advantage of the built-in development server and automatic code reloading. Run the following command to start the development server:
 
    ```bash
-   npm serve
+   npm run serve
    ```
 
 ## How the Development Works
