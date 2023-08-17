@@ -40,6 +40,8 @@ During development, you can take advantage of the built-in development server an
 
    ```bash
    npm run build
+   ```
+
 
 This will start both TypeScript compilation in watch mode and nodemon for automatic server restarts whenever you make changes to your code.
 
