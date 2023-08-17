@@ -38,6 +38,6 @@ During development, you can take advantage of the built-in development server an
    ```
 
 ## How the Development Works
-The `npm serve` command will start both TypeScript compilation in watch mode and nodemon for automatic server restarts whenever you make changes to your code. The distribution folder is cleared on each reload by rimraf. Reloading is supported accross Linux, Windows, and iOS with concurrently.
+The `npm run serve` command will start both TypeScript compilation in watch mode and nodemon for automatic server restarts whenever you make changes to your code. The distribution folder is cleared on each reload by rimraf. Reloading is supported accross Linux, Windows, and iOS with concurrently.
 
 Happy coding! 🚀
