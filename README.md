@@ -24,25 +24,20 @@ Follow these steps to set up and run the TypeScript Express application:
    ```bash
    npm install
 
-2. **Build the Application**
-
-   ```bash
-   npm run build
-
-3. **Start the Application**
+3. **Build the Application**
 
    ```bash
    npm run build
 
 ## Development
 
-During development, you can take advantage of the built-in development server and automatic code reloading. Run the following command to start the development server:
+During development, you can take advantage of the built-in development server and automatic code reloading from `nodemon`, `rimraf`, and `concurrently`. Run the following command to start the development server:
 
    ```bash
-   npm run build
+   npm serve
    ```
 
-
-This will start both TypeScript compilation in watch mode and nodemon for automatic server restarts whenever you make changes to your code.
+## How the Development Works
+The `npm serve` command will start both TypeScript compilation in watch mode and nodemon for automatic server restarts whenever you make changes to your code. The distribution folder is cleared on each reload by rimraf. Reloading is supported accross Linux, Windows, and iOS with concurrently.
 
 Happy coding! 🚀
